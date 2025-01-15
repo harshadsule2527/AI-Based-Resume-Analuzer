@@ -22,7 +22,7 @@ nltk.download('stopwords')
 
 
 # Use your API key here
-YOUTUBE_API_KEY = 'AIzaSyDuZCC61oeN4LUO7NPbvj2md3vNXs4kZxU'
+YOUTUBE_API_KEY = 'your youtube api key'
 
 def fetch_yt_video(video_id):
     youtube_api_url = f'https://www.googleapis.com/youtube/v3/videos?id={video_id}&key={YOUTUBE_API_KEY}&part=snippet'
